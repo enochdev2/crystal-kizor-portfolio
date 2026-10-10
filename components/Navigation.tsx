@@ -188,7 +188,7 @@ export function Navigation() {
         ref={mobileNavRef}
         id="mobile-navigation"
         aria-label="Mobile navigation"
-        // aria-hidden={!open}
+        aria-hidden={!open}
         className={`bg-moss text-ink fixed inset-0 z-60 hidden min-h-dvh flex-col px-6 pt-28 pb-8 transition-[opacity,transform,visibility] duration-300 max-[980px]:flex ${
           open
             ? "pointer-events-auto visible translate-y-0 opacity-100"
